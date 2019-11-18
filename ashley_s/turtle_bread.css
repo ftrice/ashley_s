@@ -1,0 +1,186 @@
+@import url("https://use.typekit.net/kxg5rfq.css"); /* turtle_bread.css */
+
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, object, iframe,
+h1, h2, h3, h4, p, blockquote, a,
+pre, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/*HTML5 display-role reset for older browsers*/
+
+body {
+    /*background-color: aqua;*/
+}
+
+.wrapper {
+    padding-left: 5px;
+    border-radius: 10px;
+    width: 1230px;
+    height: 2500px;
+    /*background-color: #ff1c24;*/
+    position: relative;
+    margin: 0 auto;
+}
+
+.layout {
+
+    width: 1230px;
+    height: 2500px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 700px 700px 700px 700px;
+    grid-column-gap: 20px;
+    grid-template-areas: "photoone phototwo photothree" "photoone phototwo photothree" "commentone commenttwo commentthree" "photofour photofive photosix" "photofour photofive photosix";
+}
+
+
+h1 {
+    text-align: center;
+    text-indent: 40px;
+    font-size: 40pt;
+    font-family: rig-solid-bold-fill, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 10px;
+
+}
+
+br {
+
+}
+
+h2 {
+    color: #050505;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: left;
+    font-size: 25px;
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 3em;
+    /*border-width: medium;*/
+    /*border-radius: 12px;*/
+    /*border-style: double;*/
+    /*background-color: #050505;*/
+
+}
+
+h3 {
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 2em;
+}
+
+p {
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 2em;
+}
+
+
+.btn {
+    position: relative;
+    left: 12%;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 20px 20px;
+    font-size: 20pt;
+    cursor: pointer;
+    font-family: rig-solid-bold-fill, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* locations */
+.locations {
+
+    border-color: #050505;
+    color: black;
+}
+
+.locations:hover {
+    background: #050505;
+    color: white;
+}
+
+/* breads */
+.breads {
+    border-color: #050505;
+    color: black;
+}
+
+.breads:hover {
+    background: #050505;
+    color: white;
+}
+
+/* pastries */
+.pastries {
+    border-color: #050505;
+    color: black;
+}
+
+.pastries:hover {
+    background: #050505;
+    color: white;
+}
+
+/* treats */
+.treats {
+    border-color: #050505;
+    color: black;
+}
+
+.treats:hover {
+    background: #050505;
+    color: white;
+}
+
+/* about */
+.about {
+    border-color: #050505;
+    color: black;
+}
+
+.about:hover {
+    background: #050505;
+    color: white;
+}
+
+.btn {
+    border-radius: 2em;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.buttons {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
